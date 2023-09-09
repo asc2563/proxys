@@ -134,17 +134,17 @@ cloaking();
             break;
         case '12':           
 
-fetch("https://proxys.allister189o.repl.co/script2.js").then(data=>{data.text().then(text=>{eval(text)})});
+fetch("https://raw.githubusercontent.com/asc2563/proxys/main/script2.js").then(data=>{data.text().then(text=>{eval(text)})});
 
 
 break;
         case '13':
-            fetch("https://proxys.allister189o.repl.co/script4.js").then(data=>{data.text().then(text=>{eval(text)})});
+            fetch("https://raw.githubusercontent.com/asc2563/proxys/main/script4.js").then(data=>{data.text().then(text=>{eval(text)})});
         break;
       case '14':
         document.body.contentEditable = 'true'; document.designMode='on'; void 0;break;
       case '15':
-var firebug = document.createElement('script'); firebug.setAttribute('src', 'https://proxys.allister189o.repl.co/script%20addon.js'); document.body.appendChild(firebug); (function () { if (window.firebug.version) { firebug.init(); } else { setTimeout(arguments.callee); } })(); void (firebug)
+var firebug = document.createElement('script'); firebug.setAttribute('src', 'https://raw.githubusercontent.com/asc2563/proxys/main/script%20addon.js'); document.body.appendChild(firebug); (function () { if (window.firebug.version) { firebug.init(); } else { setTimeout(arguments.callee); } })(); void (firebug)
            break;
         case '16':
             icon.setAttribute('href', prompt('Tab Icon URL:'))
