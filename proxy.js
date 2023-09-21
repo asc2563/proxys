@@ -1,4 +1,4 @@
-var option = prompt('what would you like to do\n\n1): launch gameubg\n2): launch gogo private\n3): launch rblocker\n4): calculator\n5): tab cloak\n6): history flood\n7): clever cloak\n8): launch 3 proxys\n9): launch nebula\n10): source code\n11): proxy doc\n12): URL proxy\n13): proxy all in one\n15): launch Aluben\n16): launch procky list\n17): launch Aluben hub');
+var option = prompt('what would you like to do\n\n1): launch gameubg\n2): launch gogo private\n3): launch rblocker\n4): calculator\n5): tab cloak\n6): history flood\n7): clever cloak\n8): launch 3 proxys\n9): launch nebula\n10): source code\n11): proxy doc\n12): URL proxy\n13): proxy all in one\n15): launch Aluben\n16): launch procky list\n17): launch Aluben hub\n18): rename tab');
       if (option == '1') {
          function cloaking() {
   var launchNum = parseInt(prompt("cloaking option \n 1): uncloaked \n 2): cloaked"));
@@ -79,7 +79,7 @@ cloaking();
                 alert("History Flooding Successful!\n " + window.location.href + " \nNow Appears In Your History " + num + (num == 1 ? " time." : " Times"))
             }
           }
-            else if (option == "6") {
+            else if (option == "7") {
                          function gcloak() {
                 var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
                 link.type = 'image/x-icon';
@@ -115,7 +115,7 @@ cloaking();
                 else if (option == "9"){
        
             var win = window.open();
-            var url = 'https://sciencenow.info';
+            var url = 'https://best-nubulalnk.allister189o.repl.co/';
             var iframe = win.document.createElement('iframe');
             iframe.style = "position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;";
             iframe.src = url;
@@ -205,7 +205,7 @@ cloaking();
                         break;
                     case 2:
                          win = window.open();
-                        url = 'https://xaviersbackup.allister189o.repl.co/';
+                        url = 'https://best-nubulalnk.allister189o.repl.co/';
                         iframe = win.document.createElement('iframe');
                         iframe.style = "position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;";
                         iframe.src = url;
@@ -312,6 +312,8 @@ cloaking();
     }
 })()
                                }
+                                 else if (option == null || option == "") {     //no option given clicked cancel
+  }
 else {
   alert("please enter a valid option");
 }
