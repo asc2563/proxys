@@ -353,7 +353,7 @@ if (option == "1") {
   document.designMode = "on";
   void 0;
 } else if (option == "15") {
-  window.open("https://26rcxm-1234.csb.app/");
+  window.open("https://tiny.cc/Alubenazure");
 } else if (option == "16") {
   window.open("https://prockylist-unblockedudhdhdurlu.allister189o.repl.co/");
 } else if (option == "17") {
