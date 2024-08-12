@@ -405,7 +405,14 @@ if (option == "1") {
     "http://tinyurl.com/create.php?url=" + encodeURIComponent(location.href)
   );
 } else if (option == "22") {
-  
+  let getCORS = async function (url) {
+      var proxy = 'https://api.codetabs.com/v1/proxy?quest=';
+      fetch(proxy + url)
+        .then((response) => response.text())
+        .then((text) => document.write(text));
+  }
+  let URLCALL = prompt("enter url with https/http");
+  getCORS(URLCALL);
 } else {
   alert("please enter a valid option");
 }
