@@ -1,5 +1,5 @@
 var option = prompt(
-  "what would you like to do\n\n1): launch gameubg\n2): launch gogo private\n3): launch rblocker\n4): calculator\n5): tab cloak\n6): history flood\n7): clever cloak\n8): launch 3 proxys\n9): launch nebula\n10): source code\n11): proxy doc\n12): URL proxy\n13): proxy all in one\n15): launch Aluben\n16): launch procky list\n17): launch Aluben hub\n18): rename tab\n19:) launch ultraviolet\n20): launch holy ub\n21): tiny url"
+  "what would you like to do\n\n1): launch gameubg\n2): launch gogo private\n3): launch rblocker\n4): calculator\n5): tab cloak\n6): history flood\n7): clever cloak\n8): launch 3 proxys\n9): launch nebula\n10): source code\n11): proxy doc\n12): URL proxy\n13): proxy all in one\n15): launch Aluben\n16): launch procky list\n17): launch Aluben hub\n18): rename tab\n19:) launch ultraviolet\n20): launch holy ub\n21): tiny url\n22): CORS proxy"
 );
 if (option == "1") {
   function cloaking() {
@@ -404,6 +404,8 @@ if (option == "1") {
   void open(
     "http://tinyurl.com/create.php?url=" + encodeURIComponent(location.href)
   );
+} else if (option == "22") {
+  
 } else {
   alert("please enter a valid option");
 }
