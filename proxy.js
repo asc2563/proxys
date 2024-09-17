@@ -1,5 +1,5 @@
 var option = prompt(
-  "what would you like to do\n\n1): launch gameubg\n2): launch gogo private\n3): launch rblocker\n4): calculator\n5): tab cloak\n6): history flood\n7): clever cloak\n8): launch 3 proxys\n9): launch nebula\n10): source code\n11): proxy doc\n12): URL proxy\n13): proxy all in one\n15): launch Aluben\n16): launch procky list\n17): launch Aluben hub\n18): rename tab\n19:) launch ultraviolet\n20): launch holy ub\n21): tiny url\n22): CORS proxy"
+  "what would you like to do\n\n1): launch gameubg\n2): launch gogo private\n3): launch rblocker\n4): calculator\n5): tab cloak\n6): history flood\n7): clever cloak\n8): launch 3 proxys\n9): launch nebula\n10): source code\n11): URL proxy\n12): proxy all in one\n13): launch Aluben\n14): launch procky list\n15): launch Aluben hub\n16): rename tab\n17:) launch ultraviolet\n18): launch holy ub\n19): tiny url\n20): CORS proxy"
 );
 if (option == "1") {
   function cloaking() {
@@ -131,10 +131,6 @@ if (option == "1") {
       alert("View-Source\x20link\x20copied\x20to\x20clipboard");
   })();
 } else if (option == "11") {
-  window.open(
-    "https://onedrive.live.com/edit.aspx?resid=3BF7E5B82264EFB9!35181&ithint=file,docx&authkey=!AED_eg8j8eskG6o"
-  );
-} else if (option == "12") {
   (() => {
     let e = "[1,2]";
 
@@ -218,7 +214,7 @@ if (option == "1") {
       })();
     })();
   })();
-} else if (option == "13") {
+} else if (option == "12") {
   (function () {
     var launchNum = parseInt(
       prompt(
@@ -348,19 +344,19 @@ if (option == "1") {
         break;
     }
   })();
-} else if (option == "14") {
+} else if (option == "13") {
   document.body.contentEditable = "true";
   document.designMode = "on";
   void 0;
-} else if (option == "15") {
+} else if (option == "14") {
   window.open("https://tiny.cc/Alubenazure");
-} else if (option == "16") {
+} else if (option == "15") {
   window.open("https://prockylist-unblockedudhdhdurlu.allister189o.repl.co/");
-} else if (option == "17") {
+} else if (option == "16") {
   window.open(
     "https://aluben-hubunblockedurlgnfjbdbdhfdhfbbff.allister189o.repl.co/"
   );
-} else if (option == "18") {
+} else if (option == "17") {
   (function () {
     document.title = prompt("Tab rename\n\nEnter new Tab Title:");
     var icon = document.querySelector('link[rel="icon"]');
@@ -384,7 +380,7 @@ if (option == "1") {
   })();
 } else if (option == null || option == "") {
   //no option given clicked cancel
-} else if (option == "19") {
+} else if (option == "18") {
   win = window.open();
   url = "https://u3.allister189o.repl.co/";
   iframe = win.document.createElement("iframe");
@@ -392,7 +388,7 @@ if (option == "1") {
     "position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;";
   iframe.src = url;
   win.document.body.appendChild(iframe);
-} else if (option == "20") {
+} else if (option == "19") {
   win = window.open();
   url = "https://ur2ndlibrary.com/";
   iframe = win.document.createElement("iframe");
@@ -400,11 +396,11 @@ if (option == "1") {
     "position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;";
   iframe.src = url;
   win.document.body.appendChild(iframe);
-} else if (option == "21") {
+} else if (option == "20") {
   void open(
     "http://tinyurl.com/create.php?url=" + encodeURIComponent(location.href)
   );
-} else if (option == "22") {
+} else if (option == "21") {
   let getCORS = async function (url) {
       var proxy = 'https://api.codetabs.com/v1/proxy?quest=';
       fetch(proxy + url)
