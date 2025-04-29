@@ -353,10 +353,6 @@ if (option == "1") {
 } else if (option == "15") {
   window.open("https://prockylist-unblockedudhdhdurlu.allister189o.repl.co/");
 } else if (option == "16") {
-  window.open(
-    "https://aluben-hubunblockedurlgnfjbdbdhfdhfbbff.allister189o.repl.co/"
-  );
-} else if (option == "17") {
   (function () {
     document.title = prompt("Tab rename\n\nEnter new Tab Title:");
     var icon = document.querySelector('link[rel="icon"]');
@@ -380,7 +376,7 @@ if (option == "1") {
   })();
 } else if (option == null || option == "") {
   //no option given clicked cancel
-} else if (option == "18") {
+} else if (option == "17") {
   win = window.open();
   url = "https://u3.allister189o.repl.co/";
   iframe = win.document.createElement("iframe");
@@ -388,7 +384,7 @@ if (option == "1") {
     "position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;";
   iframe.src = url;
   win.document.body.appendChild(iframe);
-} else if (option == "19") {
+} else if (option == "18") {
   win = window.open();
   url = "https://ur2ndlibrary.com/";
   iframe = win.document.createElement("iframe");
@@ -396,17 +392,17 @@ if (option == "1") {
     "position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;";
   iframe.src = url;
   win.document.body.appendChild(iframe);
-} else if (option == "20") {
+} else if (option == "19") {
   void open(
     "http://tinyurl.com/create.php?url=" + encodeURIComponent(location.href)
   );
-} else if (option == "21") {
+} else if (option == "20") {
   let getCORS = async function (url) {
-      var proxy = 'https://api.codetabs.com/v1/proxy?quest=';
-      fetch(proxy + url)
-        .then((response) => response.text())
-        .then((text) => document.write(text));
-  }
+    var proxy = "https://api.codetabs.com/v1/proxy?quest=";
+    fetch(proxy + url)
+      .then((response) => response.text())
+      .then((text) => document.write(text));
+  };
   let URLCALL = prompt("enter url with https/http");
   getCORS(URLCALL);
 } else {
