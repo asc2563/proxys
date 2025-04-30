@@ -1,5 +1,5 @@
 var option = prompt(
-  "what would you like to do\n\n1): launch gameubg\n2): launch gogo private\n3): launch rblocker\n4): calculator\n5): tab cloak\n6): history flood\n7): clever cloak\n8): launch 3 proxys\n9): launch nebula\n10): source code\n11): URL proxy\n12): proxy all in one\n13): page editer\n14): launch better rh\n15): launch Aluben hub\n16): rename tab\n17:) launch ultraviolet\n18): launch holy ub\n19): tiny url\n20): CORS proxy"
+  "what would you like to do\n\n1): launch gameubg\n2): launch gogo private\n3): launch rblocker\n4): calculator\n5): tab cloak\n6): history flood\n7): clever cloak\n8): launch 3 proxys\n9): launch shadow\n10): source code\n11): URL proxy\n12): proxy all in one\n13): page editer\n14): launch better rh\n15): launch rammerhead\n16): rename tab\n17:) launch intersteller\n18): launch holy ub\n19): tiny url\n20): CORS proxy"
 );
 if (option == "1") {
   function cloaking() {
@@ -117,7 +117,7 @@ if (option == "1") {
   win.document.body.appendChild(iframe);
 } else if (option == "9") {
   var win = window.open();
-  var url = "https://best-nubulalnk.allister189o.repl.co/";
+  var url = "https://underthesea.shadowshark.ipv64.net";
   var iframe = win.document.createElement("iframe");
   iframe.style =
     "position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;";
@@ -351,7 +351,7 @@ if (option == "1") {
 } else if (option == "14") {
   window.open("https://student.lhost.dev");
 } else if (option == "15") {
-  window.open("https://prockylist-unblockedudhdhdurlu.allister189o.repl.co/");
+  window.open("https://rh1.ext.rocks");
 } else if (option == "16") {
   (function () {
     document.title = prompt("Tab rename\n\nEnter new Tab Title:");
@@ -378,7 +378,7 @@ if (option == "1") {
   //no option given clicked cancel
 } else if (option == "17") {
   win = window.open();
-  url = "https://u3.allister189o.repl.co/";
+  url = "https://rrrecappp.h0stname.net";
   iframe = win.document.createElement("iframe");
   iframe.style =
     "position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;";
