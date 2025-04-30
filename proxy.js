@@ -1,5 +1,5 @@
 var option = prompt(
-  "what would you like to do\n\n1): launch gameubg\n2): launch gogo private\n3): launch rblocker\n4): calculator\n5): tab cloak\n6): history flood\n7): clever cloak\n8): launch 3 proxys\n9): launch nebula\n10): source code\n11): URL proxy\n12): proxy all in one\n13): launch Aluben\n14): launch procky list\n15): launch Aluben hub\n16): rename tab\n17:) launch ultraviolet\n18): launch holy ub\n19): tiny url\n20): CORS proxy"
+  "what would you like to do\n\n1): launch gameubg\n2): launch gogo private\n3): launch rblocker\n4): calculator\n5): tab cloak\n6): history flood\n7): clever cloak\n8): launch 3 proxys\n9): launch nebula\n10): source code\n11): URL proxy\n12): proxy all in one\n13): page editer\n14): launch better rh\n15): launch Aluben hub\n16): rename tab\n17:) launch ultraviolet\n18): launch holy ub\n19): tiny url\n20): CORS proxy"
 );
 if (option == "1") {
   function cloaking() {
@@ -349,7 +349,7 @@ if (option == "1") {
   document.designMode = "on";
   void 0;
 } else if (option == "14") {
-  window.open("https://tiny.cc/Alubenazure");
+  window.open("https://student.lhost.dev");
 } else if (option == "15") {
   window.open("https://prockylist-unblockedudhdhdurlu.allister189o.repl.co/");
 } else if (option == "16") {
