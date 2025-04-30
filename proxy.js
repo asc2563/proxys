@@ -351,7 +351,7 @@ if (option == "1") {
 } else if (option == "14") {
   window.open("https://student.lhost.dev");
 } else if (option == "15") {
-  window.open("https://rh1.ext.rocks");
+  window.open("https://checkout.lotusshipping.com");
 } else if (option == "16") {
   (function () {
     document.title = prompt("Tab rename\n\nEnter new Tab Title:");
